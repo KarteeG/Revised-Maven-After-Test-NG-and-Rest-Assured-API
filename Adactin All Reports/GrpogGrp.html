@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>C:\Users\u\eclipse-workspace\Revised_Maven\Adactin All Reports\GrpofGrp.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>8 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">18 methods,   18 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.testNGRunner.testNG_Adactin_Runner" hash-for-method="adultsPerRoom">adultsPerRoom</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.testNGRunner.testNG_Adactin_Runner" hash-for-method="bookaHotel">bookaHotel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.testNGRunner.testNG_Adactin_Runner" hash-for-method="broweLaunch">broweLaunch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.testNGRunner.testNG_Adactin_Runner" hash-for-method="childsperRoom">childsperRoom</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.testNGRunner.testNG_Adactin_Runner" hash-for-method="cidcod">cidcod</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.testNGRunner.testNG_Adactin_Runner" hash-for-method="getURL">getURL</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.testNGRunner.testNG_Adactin_Runner" hash-for-method="hotel">hotel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.testNGRunner.testNG_Adactin_Runner" hash-for-method="location">location</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.testNGRunner.testNG_Adactin_Runner" hash-for-method="login">login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.testNGRunner.testNG_Adactin_Runner" hash-for-method="logout">logout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.testNGRunner.testNG_Adactin_Runner" hash-for-method="myLit">myLit</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.testNGRunner.testNG_Adactin_Runner" hash-for-method="noOfRooms">noOfRooms</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.testNGRunner.testNG_Adactin_Runner" hash-for-method="refresh">refresh</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.testNGRunner.testNG_Adactin_Runner" hash-for-method="refresh">refresh</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.testNGRunner.testNG_Adactin_Runner" hash-for-method="room_Type">room_Type</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.testNGRunner.testNG_Adactin_Runner" hash-for-method="search">search</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.testNGRunner.testNG_Adactin_Runner" hash-for-method="selectHotel">selectHotel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.testNGRunner.testNG_Adactin_Runner" hash-for-method="sleepone">sleepone</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testNGRunner.testNG_Adactin_Runner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="adultsPerRoom">
+                  </a> <!-- adultsPerRoom -->
+                  <span class="method-name">adultsPerRoom</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="bookaHotel">
+                  </a> <!-- bookaHotel -->
+                  <span class="method-name">bookaHotel</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="broweLaunch">
+                  </a> <!-- broweLaunch -->
+                  <span class="method-name">broweLaunch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="childsperRoom">
+                  </a> <!-- childsperRoom -->
+                  <span class="method-name">childsperRoom</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cidcod">
+                  </a> <!-- cidcod -->
+                  <span class="method-name">cidcod</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getURL">
+                  </a> <!-- getURL -->
+                  <span class="method-name">getURL</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="hotel">
+                  </a> <!-- hotel -->
+                  <span class="method-name">hotel</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="location">
+                  </a> <!-- location -->
+                  <span class="method-name">location</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login">
+                  </a> <!-- login -->
+                  <span class="method-name">login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logout">
+                  </a> <!-- logout -->
+                  <span class="method-name">logout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="myLit">
+                  </a> <!-- myLit -->
+                  <span class="method-name">myLit</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="noOfRooms">
+                  </a> <!-- noOfRooms -->
+                  <span class="method-name">noOfRooms</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="refresh">
+                  </a> <!-- refresh -->
+                  <span class="method-name">refresh</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="refresh">
+                  </a> <!-- refresh -->
+                  <span class="method-name">refresh</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="room_Type">
+                  </a> <!-- room_Type -->
+                  <span class="method-name">room_Type</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="search">
+                  </a> <!-- search -->
+                  <span class="method-name">search</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectHotel">
+                  </a> <!-- selectHotel -->
+                  <span class="method-name">selectHotel</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sleepone">
+                  </a> <!-- sleepone -->
+                  <span class="method-name">sleepone</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\u\eclipse-workspace\Revised_Maven\Adactin All Reports\GrpofGrp.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;groups&gt;
+      &lt;define name=&quot;LanchBrowser&quot;&gt;
+        &lt;include name=&quot;Brower&quot;/&gt;
+        &lt;include name=&quot;Login&quot;/&gt;
+      &lt;/define&gt; &lt;!-- LanchBrowser --&gt;
+      &lt;define name=&quot;Others&quot;&gt;
+        &lt;include name=&quot;Refresh&quot;/&gt;
+        &lt;include name=&quot;SearhHotel&quot;/&gt;
+        &lt;include name=&quot;SearhHotels&quot;/&gt;
+        &lt;include name=&quot;SelectHotels&quot;/&gt;
+        &lt;include name=&quot;Booking&quot;/&gt;
+      &lt;/define&gt; &lt;!-- Others --&gt;
+      &lt;define name=&quot;Logout&quot;&gt;
+        &lt;include name=&quot;Logout&quot;/&gt;
+      &lt;/define&gt; &lt;!-- Logout --&gt;
+      &lt;define name=&quot;SeLect Cancel ALL&quot;&gt;
+        &lt;include name=&quot;Cacel&quot;/&gt;
+        &lt;include name=&quot;CacelAll&quot;/&gt;
+      &lt;/define&gt; &lt;!-- SeLect Cancel ALL --&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;LanchBrowser&quot;/&gt;
+        &lt;include name=&quot;Others&quot;/&gt;
+        &lt;include name=&quot;Logout&quot;/&gt;
+        &lt;exclude name=&quot;SeLect Cancel ALL&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.testNGRunner.testNG_Adactin_Runner&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Booking</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">bookaHotel</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Brower</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">broweLaunch</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">getURL</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Login</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">login</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">sleepone</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Logout</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">logout</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">myLit</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Refresh</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">refresh</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">SearhHotel</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">hotel</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">location</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">noOfRooms</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">room_Type</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">SearhHotels</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">adultsPerRoom</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">childsperRoom</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">cidcod</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">search</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">SelectHotels</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">selectHotel</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(18);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'myLit')
+data.setCell(0, 2, 'com.testNGRunner.testNG_Adactin_Runner')
+data.setCell(0, 3, 7131);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'sleepone')
+data.setCell(1, 2, 'com.testNGRunner.testNG_Adactin_Runner')
+data.setCell(1, 3, 5009);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'getURL')
+data.setCell(2, 2, 'com.testNGRunner.testNG_Adactin_Runner')
+data.setCell(2, 3, 2704);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'bookaHotel')
+data.setCell(3, 2, 'com.testNGRunner.testNG_Adactin_Runner')
+data.setCell(3, 3, 1747);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'login')
+data.setCell(4, 2, 'com.testNGRunner.testNG_Adactin_Runner')
+data.setCell(4, 3, 1521);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'logout')
+data.setCell(5, 2, 'com.testNGRunner.testNG_Adactin_Runner')
+data.setCell(5, 3, 1191);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'selectHotel')
+data.setCell(6, 2, 'com.testNGRunner.testNG_Adactin_Runner')
+data.setCell(6, 3, 829);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'search')
+data.setCell(7, 2, 'com.testNGRunner.testNG_Adactin_Runner')
+data.setCell(7, 3, 827);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'refresh')
+data.setCell(8, 2, 'com.testNGRunner.testNG_Adactin_Runner')
+data.setCell(8, 3, 464);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'cidcod')
+data.setCell(9, 2, 'com.testNGRunner.testNG_Adactin_Runner')
+data.setCell(9, 3, 402);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'refresh')
+data.setCell(10, 2, 'com.testNGRunner.testNG_Adactin_Runner')
+data.setCell(10, 3, 330);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'hotel')
+data.setCell(11, 2, 'com.testNGRunner.testNG_Adactin_Runner')
+data.setCell(11, 3, 266);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'location')
+data.setCell(12, 2, 'com.testNGRunner.testNG_Adactin_Runner')
+data.setCell(12, 3, 251);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'noOfRooms')
+data.setCell(13, 2, 'com.testNGRunner.testNG_Adactin_Runner')
+data.setCell(13, 3, 218);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'broweLaunch')
+data.setCell(14, 2, 'com.testNGRunner.testNG_Adactin_Runner')
+data.setCell(14, 3, 216);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'room_Type')
+data.setCell(15, 2, 'com.testNGRunner.testNG_Adactin_Runner')
+data.setCell(15, 3, 210);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'adultsPerRoom')
+data.setCell(16, 2, 'com.testNGRunner.testNG_Adactin_Runner')
+data.setCell(16, 3, 200);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'childsperRoom')
+data.setCell(17, 2, 'com.testNGRunner.testNG_Adactin_Runner')
+data.setCell(17, 3, 199);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 23 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">1 ignored method</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.testNGRunner.testNG_Adactin_Runner</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">sleeptwo</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testNGRunner.testNG_Adactin_Runner</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">broweLaunch</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getURL</span>
+                <span class="method-start">240 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">refresh</span>
+                <span class="method-start">2951 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">refresh</span>
+                <span class="method-start">3418 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">login</span>
+                <span class="method-start">3753 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sleepone</span>
+                <span class="method-start">5279 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">location</span>
+                <span class="method-start">10295 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">hotel</span>
+                <span class="method-start">10549 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">room_Type</span>
+                <span class="method-start">10819 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">noOfRooms</span>
+                <span class="method-start">11033 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">cidcod</span>
+                <span class="method-start">11254 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">adultsPerRoom</span>
+                <span class="method-start">11660 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">childsperRoom</span>
+                <span class="method-start">11863 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">search</span>
+                <span class="method-start">12065 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">selectHotel</span>
+                <span class="method-start">12895 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">bookaHotel</span>
+                <span class="method-start">13728 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">myLit</span>
+                <span class="method-start">15482 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">logout</span>
+                <span class="method-start">22616 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <groups>
+  <define name="Before">
+  	<include name="BeforeClass"></include>
+  	<include name="BeforeMethod"></include>
+  </define>
+  <define name="After">
+  <include name="AfterMethod"></include>
+  <include name="AfterClass"></include>
+  </define>
+  <define name="Tshirts">
+  <include name="Tshirts"></include>
+  </define>
+  <define name="womenDreses">
+  <include name="Women"></include>
+  <include name="Dresses"></include>
+  </define>
+  <run>
+  <include name="Before"></include>
+  <include name="After"></include>
+  <exclude name="womenDreses"></exclude>
+  <include name="Tshirts"></include>
+  </run>
+  
+  </groups>
+    <classes>
+      <class name="com.testNGRunner.TestNG_Automation_Runner">
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

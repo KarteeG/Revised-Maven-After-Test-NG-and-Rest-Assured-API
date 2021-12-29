@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  
+	<parameter name="location" value="Sydney"></parameter>  
+	<parameter name="hotels" value="Hotel Creek"></parameter>
+    <classes>
+    <class name="com.testNGRunner.testNG_Adactin_Runner"></class>
+  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

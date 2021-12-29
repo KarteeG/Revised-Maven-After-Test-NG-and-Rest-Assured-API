@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="20" passed="19">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="49730" started-at="2021-12-28T01:40:48 IST" finished-at="2021-12-28T01:41:38 IST">
+    <groups>
+      <group name="Refresh">
+        <method signature="testNG_Adactin_Runner.refresh()[pri:-3, instance:com.testNGRunner.testNG_Adactin_Runner@1b266842]" name="refresh" class="com.testNGRunner.testNG_Adactin_Runner"/>
+      </group> <!-- Refresh -->
+      <group name="SearhHotel">
+        <method signature="testNG_Adactin_Runner.hotel(java.lang.String)[pri:7, instance:com.testNGRunner.testNG_Adactin_Runner@1b266842]" name="hotel" class="com.testNGRunner.testNG_Adactin_Runner"/>
+        <method signature="testNG_Adactin_Runner.location(java.lang.String)[pri:6, instance:com.testNGRunner.testNG_Adactin_Runner@1b266842]" name="location" class="com.testNGRunner.testNG_Adactin_Runner"/>
+        <method signature="testNG_Adactin_Runner.noOfRooms()[pri:9, instance:com.testNGRunner.testNG_Adactin_Runner@1b266842]" name="noOfRooms" class="com.testNGRunner.testNG_Adactin_Runner"/>
+        <method signature="testNG_Adactin_Runner.room_Type()[pri:8, instance:com.testNGRunner.testNG_Adactin_Runner@1b266842]" name="room_Type" class="com.testNGRunner.testNG_Adactin_Runner"/>
+      </group> <!-- SearhHotel -->
+      <group name="Logout">
+        <method signature="testNG_Adactin_Runner.logout()[pri:19, instance:com.testNGRunner.testNG_Adactin_Runner@1b266842]" name="logout" class="com.testNGRunner.testNG_Adactin_Runner"/>
+        <method signature="testNG_Adactin_Runner.myLit()[pri:16, instance:com.testNGRunner.testNG_Adactin_Runner@1b266842]" name="myLit" class="com.testNGRunner.testNG_Adactin_Runner"/>
+      </group> <!-- Logout -->
+      <group name="CacelAll">
+        <method signature="testNG_Adactin_Runner.selectall()[pri:18, instance:com.testNGRunner.testNG_Adactin_Runner@1b266842]" name="selectall" class="com.testNGRunner.testNG_Adactin_Runner"/>
+      </group> <!-- CacelAll -->
+      <group name="Booking">
+        <method signature="testNG_Adactin_Runner.bookaHotel()[pri:15, instance:com.testNGRunner.testNG_Adactin_Runner@1b266842]" name="bookaHotel" class="com.testNGRunner.testNG_Adactin_Runner"/>
+      </group> <!-- Booking -->
+      <group name="Login">
+        <method signature="testNG_Adactin_Runner.login(java.lang.String,java.lang.String)[pri:3, instance:com.testNGRunner.testNG_Adactin_Runner@1b266842]" name="login" class="com.testNGRunner.testNG_Adactin_Runner"/>
+        <method signature="testNG_Adactin_Runner.sleepone()[pri:4, instance:com.testNGRunner.testNG_Adactin_Runner@1b266842]" name="sleepone" class="com.testNGRunner.testNG_Adactin_Runner"/>
+      </group> <!-- Login -->
+      <group name="SelectHotels">
+        <method signature="testNG_Adactin_Runner.selectHotel()[pri:14, instance:com.testNGRunner.testNG_Adactin_Runner@1b266842]" name="selectHotel" class="com.testNGRunner.testNG_Adactin_Runner"/>
+      </group> <!-- SelectHotels -->
+      <group name="Brower">
+        <method signature="testNG_Adactin_Runner.broweLaunch()[pri:-5, instance:com.testNGRunner.testNG_Adactin_Runner@1b266842]" name="broweLaunch" class="com.testNGRunner.testNG_Adactin_Runner"/>
+        <method signature="testNG_Adactin_Runner.getURL()[pri:-4, instance:com.testNGRunner.testNG_Adactin_Runner@1b266842]" name="getURL" class="com.testNGRunner.testNG_Adactin_Runner"/>
+      </group> <!-- Brower -->
+      <group name="SearhHotels">
+        <method signature="testNG_Adactin_Runner.adultsPerRoom()[pri:11, instance:com.testNGRunner.testNG_Adactin_Runner@1b266842]" name="adultsPerRoom" class="com.testNGRunner.testNG_Adactin_Runner"/>
+        <method signature="testNG_Adactin_Runner.childsperRoom()[pri:12, instance:com.testNGRunner.testNG_Adactin_Runner@1b266842]" name="childsperRoom" class="com.testNGRunner.testNG_Adactin_Runner"/>
+        <method signature="testNG_Adactin_Runner.cidcod()[pri:10, instance:com.testNGRunner.testNG_Adactin_Runner@1b266842]" name="cidcod" class="com.testNGRunner.testNG_Adactin_Runner"/>
+        <method signature="testNG_Adactin_Runner.search()[pri:13, instance:com.testNGRunner.testNG_Adactin_Runner@1b266842]" name="search" class="com.testNGRunner.testNG_Adactin_Runner"/>
+      </group> <!-- SearhHotels -->
+    </groups>
+    <test name="Default test" duration-ms="49730" started-at="2021-12-28T01:40:48 IST" finished-at="2021-12-28T01:41:38 IST">
+      <class name="com.testNGRunner.testNG_Adactin_Runner">
+        <test-method status="PASS" signature="broweLaunch()[pri:-5, instance:com.testNGRunner.testNG_Adactin_Runner@1b266842]" name="broweLaunch" duration-ms="300" started-at="2021-12-28T01:40:48 IST" finished-at="2021-12-28T01:40:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- broweLaunch -->
+        <test-method status="PASS" signature="getURL()[pri:-4, instance:com.testNGRunner.testNG_Adactin_Runner@1b266842]" name="getURL" duration-ms="2279" started-at="2021-12-28T01:40:48 IST" finished-at="2021-12-28T01:40:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getURL -->
+        <test-method status="PASS" signature="refresh()[pri:-3, instance:com.testNGRunner.testNG_Adactin_Runner@1b266842]" name="refresh" duration-ms="404" started-at="2021-12-28T01:40:51 IST" finished-at="2021-12-28T01:40:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refresh -->
+        <test-method status="PASS" signature="refresh()[pri:-3, instance:com.testNGRunner.testNG_Adactin_Runner@1b266842]" name="refresh" duration-ms="394" started-at="2021-12-28T01:40:51 IST" finished-at="2021-12-28T01:40:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refresh -->
+        <test-method status="PASS" signature="login(java.lang.String,java.lang.String)[pri:3, instance:com.testNGRunner.testNG_Adactin_Runner@1b266842]" name="login" duration-ms="1821" started-at="2021-12-28T01:40:51 IST" data-provider="data" finished-at="2021-12-28T01:40:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[karteeng]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[13990T]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="sleepone()[pri:4, instance:com.testNGRunner.testNG_Adactin_Runner@1b266842]" name="sleepone" duration-ms="5002" started-at="2021-12-28T01:40:53 IST" finished-at="2021-12-28T01:40:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sleepone -->
+        <test-method status="PASS" signature="location(java.lang.String)[pri:6, instance:com.testNGRunner.testNG_Adactin_Runner@1b266842]" name="location" duration-ms="342" started-at="2021-12-28T01:40:58 IST" finished-at="2021-12-28T01:40:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Paris]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- location -->
+        <test-method status="PASS" signature="hotel(java.lang.String)[pri:7, instance:com.testNGRunner.testNG_Adactin_Runner@1b266842]" name="hotel" duration-ms="290" started-at="2021-12-28T01:40:59 IST" finished-at="2021-12-28T01:40:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hotel Sunshine]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hotel -->
+        <test-method status="PASS" signature="room_Type()[pri:8, instance:com.testNGRunner.testNG_Adactin_Runner@1b266842]" name="room_Type" duration-ms="278" started-at="2021-12-28T01:40:59 IST" finished-at="2021-12-28T01:40:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- room_Type -->
+        <test-method status="PASS" signature="noOfRooms()[pri:9, instance:com.testNGRunner.testNG_Adactin_Runner@1b266842]" name="noOfRooms" duration-ms="241" started-at="2021-12-28T01:40:59 IST" finished-at="2021-12-28T01:40:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- noOfRooms -->
+        <test-method status="PASS" signature="cidcod()[pri:10, instance:com.testNGRunner.testNG_Adactin_Runner@1b266842]" name="cidcod" duration-ms="466" started-at="2021-12-28T01:40:59 IST" finished-at="2021-12-28T01:41:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cidcod -->
+        <test-method status="PASS" signature="adultsPerRoom()[pri:11, instance:com.testNGRunner.testNG_Adactin_Runner@1b266842]" name="adultsPerRoom" duration-ms="233" started-at="2021-12-28T01:41:00 IST" finished-at="2021-12-28T01:41:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adultsPerRoom -->
+        <test-method status="PASS" signature="childsperRoom()[pri:12, instance:com.testNGRunner.testNG_Adactin_Runner@1b266842]" name="childsperRoom" duration-ms="245" started-at="2021-12-28T01:41:00 IST" finished-at="2021-12-28T01:41:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- childsperRoom -->
+        <test-method status="PASS" signature="search()[pri:13, instance:com.testNGRunner.testNG_Adactin_Runner@1b266842]" name="search" duration-ms="1286" started-at="2021-12-28T01:41:00 IST" finished-at="2021-12-28T01:41:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="selectHotel()[pri:14, instance:com.testNGRunner.testNG_Adactin_Runner@1b266842]" name="selectHotel" duration-ms="1057" started-at="2021-12-28T01:41:02 IST" finished-at="2021-12-28T01:41:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectHotel -->
+        <test-method status="PASS" signature="bookaHotel()[pri:15, instance:com.testNGRunner.testNG_Adactin_Runner@1b266842]" name="bookaHotel" duration-ms="2128" started-at="2021-12-28T01:41:03 IST" finished-at="2021-12-28T01:41:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookaHotel -->
+        <test-method status="PASS" signature="myLit()[pri:16, instance:com.testNGRunner.testNG_Adactin_Runner@1b266842]" name="myLit" duration-ms="7251" started-at="2021-12-28T01:41:05 IST" finished-at="2021-12-28T01:41:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myLit -->
+        <test-method status="PASS" signature="selectall()[pri:18, instance:com.testNGRunner.testNG_Adactin_Runner@1b266842]" name="selectall" duration-ms="15298" started-at="2021-12-28T01:41:12 IST" finished-at="2021-12-28T01:41:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectall -->
+        <test-method status="PASS" signature="logout()[pri:19, instance:com.testNGRunner.testNG_Adactin_Runner@1b266842]" name="logout" duration-ms="10097" started-at="2021-12-28T01:41:27 IST" finished-at="2021-12-28T01:41:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- com.testNGRunner.testNG_Adactin_Runner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

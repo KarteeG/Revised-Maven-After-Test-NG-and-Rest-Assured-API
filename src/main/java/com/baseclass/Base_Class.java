@@ -307,7 +307,7 @@ public class Base_Class {
 	public static void JavaScroll(String type) {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		if (type.equalsIgnoreCase("scrollDown")) {
-			js.executeScript("window.scrollBy(0,1000)");
+			js.executeScript("window.scrollBy(0,350)");
 		} else if (type.equalsIgnoreCase("scrollup")) {
 			js.executeScript("window.scrollBy(0,-500)");
 		} else if (type.equalsIgnoreCase("scroll")) {

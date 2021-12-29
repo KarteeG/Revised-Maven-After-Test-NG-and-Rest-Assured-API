@@ -26,19 +26,18 @@ public class Test_Runner extends Base_Class {
 		waitImp(5000, TimeUnit.SECONDS);
 		maximize();
 		
-		JavaScroll("scrollDown");
-
-		WebElement siv = driver.findElement(By.xpath(
-				"//a[@href=\"http://www.amazon.in/gp/redirect.html/ref=footer_twitter?location=http://twitter.com/AmazonIN&token=A309DFBFCB1E37A808FF531934855DC817F130B6&6\"]"));
-		javaScriptOptions("scrollIntoView", siv);
-		javaScriptOptions("click", siv);
-	
-		sleep(10000);
-		sleep(10000);
-
-		navigateBack();
-
+		JavaScroll("scrolldown");
+		JavaScroll("scrollUP");
+		JavaScroll("scroll");
 		
+		WebElement best = driver.findElement(By.xpath("//a[@href=\"/gp/bestsellers/?ref_=nav_cs_bestsellers\"]"));
+		actionsFunctions("context", best, null);
 
+		robotFunctions("down");
+		robotFunctions("enter");
+		
+		//close();
+		
+		quit();
 	}
 }

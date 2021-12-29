@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <groups>
+  <define name="LanchBrowser">
+  <include name="Brower"></include>
+  <include name="Login"></include>
+  </define>
+  <define name="Others">
+  <include name="Refresh"></include>
+  <include name="SearhHotel"></include>
+  <include name="SearhHotels"></include>
+  <include name="SelectHotels"></include>
+  <include name="Booking"></include>
+  </define>
+  <define name="Logout">
+  <include name="Logout"></include>
+  </define>
+  <define name="SeLect Cancel ALL">
+  <include name="Cacel"></include>
+  <include name="CacelAll"></include>
+  </define>
+  <run>
+  <include name="LanchBrowser"></include>
+  <include name="Others"></include>
+  <include name="Logout"></include>
+  <exclude name="SeLect Cancel ALL"></exclude>
+  </run>
+  </groups>
+    <classes>
+      <class name="com.testNGRunner.testNG_Adactin_Runner"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
